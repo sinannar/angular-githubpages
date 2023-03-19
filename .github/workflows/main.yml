@@ -23,4 +23,4 @@ jobs:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: |
         npm install
-        ng deploy --base-href=/angular-githubpages/ --name="Sinan Nar" --email=sinan.nar@gmail.com --base-href=/angular-githubpages/
+        npm run deploy --base-href=/angular-githubpages/ --name="Sinan Nar" --email=sinan.nar@gmail.com --base-href=/angular-githubpages/
