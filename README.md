@@ -7,6 +7,6 @@
 
 ## Process
 1. run `ng add angular-cli-ghpages`
-2. run `ng deploy --repo=https://github.com/sinannar/angular-githubpages.git`
+2. run `ng deploy --repo=https://github.com/sinannar/angular-githubpages.git --base-href=/angular-githubpages`
 3. creates a branch `gh-pages`
 4. ready at `https://sinannar.github.io/angular-githubpages`
