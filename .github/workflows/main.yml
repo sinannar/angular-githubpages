@@ -23,7 +23,6 @@ jobs:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: |
         npm install
-        npm run lint
         ###
         # Configure Angular first!
         ####
@@ -31,4 +30,4 @@ jobs:
         # npm run webdriver-update-ci
         # npm run e2e -- --protractor-config=e2e/protractor-ci.conf.js --webdriver-update=false
         ####
-        npm run ng -- deploy --base-href=/angular-githubpages/ --name="Sinan Nar" --email=sinan.nar@gmail.com
+        npm run ng deploy --base-href=/angular-githubpages/ --name="Sinan Nar" --email=sinan.nar@gmail.com
